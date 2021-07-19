@@ -4,14 +4,15 @@ import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from "../components/Content"
+import { Gallery } from "gatsby-theme-gallery";
 
-const ServiceTemplate = ({
+const PortfolioTemplate = ({
   title,
   content,
   contentComponent,
-  image,
-  intro,
-  heading,
+  images,
+  lightboxOptions,
+  onClose,
   subheading,
   description,
   list,
@@ -22,20 +23,16 @@ const ServiceTemplate = ({
   const PageContent = contentComponent || Content
   return (
     <div>
-
-    <section className="section services">
-      <h3>{heading}</h3>
-        <PageContent className="container content" content={content} />
-      <h3>{subheading}</h3>
-      <p>{description}</p>
-      <p>{list}</p>
+      <section className="section services">
+          <h3>{title}</h3>
+          <Gallery />
       </section>
-      </div>
+    </div>
 
     )
 }
 
-ServiceTemplate.propTypes = {
+PortfolioTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -50,7 +47,7 @@ ServiceTemplate.propTypes = {
   langKey: PropTypes.string
 }
 
-class ServicesPage extends React.Component {
+class PortfolioPage extends React.Component {
 
 render() {
   var dataMarkdown = [];
@@ -71,7 +68,7 @@ render() {
           postImage={image}
         />
         <div>
-            <ServiceTemplate
+            <PortfolioTemplate
             contentComponent={HTMLContent}
             heading={frontmatter.heading}
             subheading={frontmatter.subheading}
@@ -89,7 +86,7 @@ render() {
   }
 }
 
-ServicesPage.propTypes = {
+PortfolioPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -97,10 +94,10 @@ ServicesPage.propTypes = {
   }),
 }
 
-export default ServicesPage
+export default PortfolioPage
 
 export const pageQuery = graphql
-`query ServicesPageQuery($id: String!) {
+`query PortfolioPageQuery($id: String!) {
   site {
     siteMetadata {
       languages {
@@ -143,3 +140,4 @@ export const pageQuery = graphql
   }
 }
 `
+

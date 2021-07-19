@@ -6,6 +6,11 @@
       "sr": "/"
     },
     {
+      "id": "02",
+      "en": "portfolio",
+      "sr": "portfolio"
+    },
+    {
       "id": "03",
       "en": "about",
       "sr": "onama"

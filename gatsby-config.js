@@ -139,7 +139,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Naissus Interiors`,
-        short_name: `Fs`,
+        short_name: `NI`,
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,
@@ -153,21 +153,8 @@ module.exports = {
       }
     },
     `gatsby-plugin-offline`,
-  {
-    resolve: `gatsby-source-instagram-all`,
-    options: {
-      access_token: process.env.INSTAGRAM_TOKEN
-    }
-  },
   `gatsby-plugin-gatsby-cloud`,
-  {
-    resolve: `gatsby-source-stripe`,
-    options: {
-      objects: ['Product'],
-      secretKey: process.env.SECRET_STRIPE_KEY,
-      downloadFiles: true,
-    }
-  },
+  "gatsby-theme-gallery",
   ],
 }
 
