@@ -5,7 +5,9 @@ interface Query {
     siteMetadata: {
       title: string;
       description: string;
-      author: string;
+      author: {
+        name: string;
+      }
       social: {
         name: string;
         url: string;
