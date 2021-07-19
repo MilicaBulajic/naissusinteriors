@@ -14,9 +14,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
             description
             siteUrl
             image
-            author {
-              name
-            }
+            author
             organization {
               name
               url

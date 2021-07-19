@@ -13,13 +13,7 @@ module.exports = {
 `,
     siteUrl: "https://naissusinteriors.com/",
     image: 'img.jpg',
-    author: {
-      name: 'Your Name',
-      minibio: `
-        This bio is shown at the bottom of each blog post. It supports
-        <strong>custom HTML</strong> if you’re into that sort of thing.
-      `,
-    },
+    author: 'naissusinteriors',
     organization: {
       name: 'Example, Inc.',
       url: 'https://example.com',

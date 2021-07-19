@@ -25,7 +25,7 @@ const PortfolioTemplate = ({
     <div>
       <section className="section services">
           <h3>{title}</h3>
-          <Gallery />
+            <Gallery />
       </section>
     </div>
 
