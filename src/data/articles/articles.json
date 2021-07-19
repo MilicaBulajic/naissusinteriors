@@ -1,0 +1,34 @@
+{
+  "title": "home",
+  "articles": [{
+      "id": "01",
+      "en": "/",
+      "sr": "/"
+    },
+    {
+      "id": "03",
+      "en": "about",
+      "sr": "onama"
+    },
+    {
+      "id": "04",
+      "en": "contact",
+      "sr": "kontakt"
+    },
+    {
+      "id": "05",
+      "en": "services",
+      "sr": "servisi"
+    },
+    {
+      "id": "13",
+      "en": "/",
+      "sr": "/"
+    },
+    {
+      "id": "14",
+      "en": "tags",
+      "sr": "tags"
+    }
+  ]
+}
