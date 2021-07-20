@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from "../components/Content"
-import { Gallery } from "gatsby-theme-gallery";
+import { Gallery } from "gatsby-gallery-simple"
 
 const PortfolioTemplate = ({
   title,

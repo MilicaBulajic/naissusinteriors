@@ -148,7 +148,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
   `gatsby-plugin-gatsby-cloud`,
-  "gatsby-theme-gallery",
+  "gatsby-gallery-simple",
   ],
 }
 

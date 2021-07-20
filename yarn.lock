@@ -7223,6 +7223,22 @@ gatsby-core-utils@^2.9.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-gallery-simple@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-gallery-simple/-/gatsby-gallery-simple-1.0.3.tgz#867365e4f3ac7f978e81bdd43c07b881b5a92ab4"
+  integrity sha512-2c88qkWXAvZ/flKDXcyiUoC00zXXOteEs55bCmNAzrPzw+ZV7viXHEaAUg0r5LuGHnsAQs1GCjBtGK/ALmAuYA==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@mdx-js/react" "^1.1.1"
+    gatsby-image "^2.2.7"
+    gatsby-plugin-sharp "^2.2.9"
+    gatsby-plugin-theme-ui "^0.2.23"
+    gatsby-plugin-typescript "^2.1.2"
+    gatsby-source-filesystem "^2.1.6"
+    gatsby-transformer-sharp "^2.2.5"
+    react-modal-image "^2.4.0"
+    theme-ui "^0.2.23"
+
 gatsby-graphiql-explorer@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-1.4.0.tgz#49b9b6d617dbba3a032bfbc8dfd315754d63cfe3"
@@ -7782,22 +7798,6 @@ gatsby-telemetry@^2.9.0:
     lodash "^4.17.21"
     node-fetch "^2.6.1"
     uuid "3.4.0"
-
-gatsby-theme-gallery@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-gallery/-/gatsby-theme-gallery-1.0.2.tgz#fdabb29ae25e28707666b7eb192fe136649d1cfc"
-  integrity sha512-vL7Xw0Mh0oqihD5j3FlnrAHE1GF+Dxdi4O0RK7DNWEY6ki4L89ODyZomtBkQwkgHmeRgNG/H43+2kUDlI/3TVw==
-  dependencies:
-    "@emotion/core" "^10.0.14"
-    "@mdx-js/react" "^1.1.1"
-    gatsby-image "^2.2.7"
-    gatsby-plugin-sharp "^2.2.9"
-    gatsby-plugin-theme-ui "^0.2.23"
-    gatsby-plugin-typescript "^2.1.2"
-    gatsby-source-filesystem "^2.1.6"
-    gatsby-transformer-sharp "^2.2.5"
-    react-modal-image "^2.4.0"
-    theme-ui "^0.2.23"
 
 gatsby-transformer-javascript-frontmatter@^3.0.0:
   version "3.4.0"
