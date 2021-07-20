@@ -24,9 +24,7 @@ const useSiteMetadata = () => {
           siteMetadata {
             title
             description
-            author {
-              name
-            }
+            author
             social {
               name
               url
