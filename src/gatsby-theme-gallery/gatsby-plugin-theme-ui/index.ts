@@ -1,4 +1,5 @@
 export default {
+    initialColorMode: "dark",
     fonts: {
       body: '"Avenir Next", system-ui, sans-serif',
       heading: '"Avenir Next", system-ui, sans-serif',
@@ -25,6 +26,17 @@ export default {
         alignItems: "center",
         justifyContent: "space-between",
         marginBottom: "1rem",
+      },
+      Footer: {
+        position: "fixed",
+        left: 0,
+        bottom: 0,
+        width: "100%",
+        padding: "0 1.5rem",
+        backgroundColor: "background",
+        fontSize: 1,
+        alignItems: "center",
+        justifyContent: "space-between",
       },
       h1: {
         color: "text",
