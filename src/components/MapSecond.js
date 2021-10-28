@@ -11,8 +11,7 @@ const center = {
   lng: -73.97576031527545
 };
 
-
-function Map() {
+function MapSecond() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: process.env.GATSBY_GOOGLE_MAPS_API_KEY
@@ -34,19 +33,21 @@ function Map() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-
+        zoom={12}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
 <Marker
-              defaultPlace={center}
+              // defaultPlace={center}
               position={center}       
-
-              defaultPosition={center}
+              // ref={refMap}
+              // defaultPosition={center}
+              // onDrag={handleBoundsChanged}
+              // onDragEnd={handleDragEnd}
             />
         <></>
       </GoogleMap>
   ) : <></>
 }
 
-export default React.memo(Map)
+export default React.memo(MapSecond)

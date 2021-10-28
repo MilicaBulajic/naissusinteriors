@@ -10,6 +10,9 @@ import OsmMap from '../components/OsmMap'
 import FollowUs from '../components/FollowUs'
 import { getCurrentLangKey } from 'ptz-i18n';
 import { FormattedMessage } from 'react-intl';
+import Map from "../components/Map"
+import MapSecond from "../components/MapSecond"
+
 
 
 function encode(data) {
@@ -38,7 +41,6 @@ const ContactPageTemplate = ({
       <section className="contacts">
         <div className="container">
           <div className="content">
-      <h1 className="title">{title}</h1>
       <PageContent className="container content" content={content} />
       <ContactDetails
       image={image}
@@ -112,6 +114,7 @@ const ContactPageTemplate = ({
       </div>
       </div>
     </section>
+    
 )
 }
 
@@ -176,7 +179,7 @@ class ContactPage extends React.Component {
           frontmatter={frontmatter}
           postImage={imageSEO}
         />
-
+ <Map />
             <div className="container">
                 <ContactPageTemplate
                 contentComponent={HTMLContent}
@@ -190,6 +193,8 @@ class ContactPage extends React.Component {
                 action={action}
                  />
             </div>
+           
+ <MapSecond />
       <FollowUs link={linkinsta} instagram={instagram}/>
     </Layout>
     )

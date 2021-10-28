@@ -5,7 +5,10 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO/SEO";
 import Content, { HTMLContent } from "../components/Content";
-import banner from '../img/banner.png'
+import Banner from '../components/Banner';
+import Slider from '../components/Slider';
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import logo from '../img/banner.png'
 
 
 const HomePageTemplate = ({
@@ -14,6 +17,8 @@ const HomePageTemplate = ({
   linkinsta,
   instagram,
   heading,
+  display,
+  array,
   subheading,
   mainpitch,
   main,
@@ -29,25 +34,15 @@ const HomePageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <header>
-      <section>
-      <div
-        className="full-width-image margin-top-0 home-mob"
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
-          height: '400px',
-        }}
-      >
-        <div className="cover-text animated bounceInRight">
-          <h2 className="is-size-5-mobile animated bounceInRight">{heading}</h2>
-          <img src={banner} alt="naissusinteriors" />
-          <h1 className="is-size-5-mobile animated bounceInRight">{subheading}</h1>
-        </div>
+    <div className="header">
+      <div className="slide column is-8">
+      <Slider array={array} display={display} />
       </div>
-      </section>
-    </header>
+      <div className="slidetext column is-4">
+        <img src={logo} />
+        <p>{mainpitch.subheading}</p>
+      </div>
+    </div>
   );
 };
 
@@ -78,6 +73,8 @@ class HomePage extends React.Component {
     const { frontmatter } = data.markdownRemark;
     const image = frontmatter.image.childImageSharp.fluid.src;
     const tags = frontmatter.tags;
+    const { display } = frontmatter.slider;
+    const { array } = frontmatter.slider;
     const linkinsta = dataMarkdown.frontmatter.linkinsta;
     const instagram = dataMarkdown.frontmatter.instagram;
     const images = frontmatter.images;
@@ -92,6 +89,8 @@ class HomePage extends React.Component {
         <SEO frontmatter={frontmatter} postImage={image} />
         <div>
           <HomePageTemplate
+            display={display}
+            array={array}
             imageCardSL={dataMarkdown.frontmatter.imageCardSL}
             image={dataMarkdown.frontmatter.image}
             heading={dataMarkdown.frontmatter.heading}
@@ -166,6 +165,16 @@ export const pageQuery = graphql`
           title
           description
           link
+        }
+        slider {
+          display
+          array {
+            original
+            thumbnail
+            originalAlt
+            originalTitle
+            description
+          }
         }
         main {
           heading

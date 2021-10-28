@@ -29,9 +29,6 @@ path: /en/about/
 slug: /en/about/
 ---
 
-<b>Naissus Interiors</b> is a full service tile and stone company based in New York City. The company provides stone and tile installation and fabrication services to the high-end residential and commercial markets.
-Whether we are servicing general contractors, construction managers, architects or owners we understand our role and its part in the overall outlook of a project.
-
 As a finishing contractor, we tailer to the smallest detail to ensure an impeccable service.
 Our installers have the craftsmanship, training and work ethic to complete projects in a manner that delivers highest quality and respects clients time.
 Our project managers provide hands-on client relationship approach and ensure that the ever changing circumstances within this industry are handled timely and flawlessly.
