@@ -4,12 +4,43 @@ title: "Services"
 image: /img/banner.png
 heading: What to expect
 subheading: Services
-description: "Overview of our stone installation services:"
+description: ""
 templateKey: services
-tags:
-  - 
+testimonials:
+  - author: BATHROOM COUNTERTOPS
+    quote: >-
+    image: /img/test1.png
+    alt: Bathroom countertops
+  - author: KITCHEN COUNTERTOPS 
+    quote: >-
+    image: /img/test2.png
+    alt: Kitchen countertops
+  - author: JACUZZI, SPA, AND TUB DECKS
+    quote: >-
+    image: /img/test1.png
+    alt: Jacuzzi, spa, and tub decks
+  - author: OUTDOOR KITCHENS
+    quote: >-
+    image: /img/test2.png
+    alt: Outdoor kitchens
+  - author: BAR TOPS
+    quote: >-
+    image: /img/test1.png
+    alt: Bar tops
+  - author: UTILITY AND LAUNDRY ROOM TOPS
+    quote: >-
+    image: /img/test1.png
+    alt: Utility and laundry room tops
+  - author: FIREPLACE SURROUNDS
+    quote: >-
+    image: /img/test1.png
+    alt: Fireplace surrounds
+  - author: SINKS
+    quote: >-
+    image: /img/test1.png
+    alt: sinks
 lang: en
-list: [ "tech1", "tech2" ]
+list:
 date: "05-03-2019"
 path: /en/services/
 slug: /en/services/

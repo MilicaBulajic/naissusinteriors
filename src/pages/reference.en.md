@@ -4,7 +4,7 @@ title: "About us"
 description: 
 linkinsta: 'naissusinteriors'
 instagram: '@naissusinteriors'
-templateKey: about
+templateKey: reference
 tags:
   - web
 lang: en

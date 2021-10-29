@@ -7,7 +7,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 const Testimonials = ({ testimonials }) => (
   <div className="columns is-multiline">
     {testimonials.map((testimonial) => (
-      <article key={v4()} className="is-parent column is-4">
+      <article key={v4()} className="is-parent column is-3">
         <div
           style={{
             paddingTop: "10%",
@@ -15,8 +15,8 @@ const Testimonials = ({ testimonials }) => (
             width: "auto",
             innerHeight: "auto",
           }}
-          className="message-body testimonials">
-          <figure className="image is-128x128">
+          className="testimonials">
+          <figure className="image is-220x220">
             <GatsbyImage
               image={testimonial.image.childImageSharp.gatsbyImageData}
               alt={testimonial.alt}
@@ -24,7 +24,7 @@ const Testimonials = ({ testimonials }) => (
           </figure>
           {testimonial.quote}
           <br />
-          <cite> – {testimonial.author}</cite>
+          <p> {testimonial.author}</p>
         </div>
       </article>
     ))}

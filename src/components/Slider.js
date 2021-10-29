@@ -49,6 +49,7 @@ const Slider = ({ array, display }) => {
           showThumbnails={false}
           autoPlay={true}
           slideDuration={1200}
+          showNav={false}
         />
       ) : (
         <div className="void"></div>

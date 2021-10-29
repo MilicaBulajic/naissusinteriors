@@ -11,6 +11,7 @@ module.exports = {
     } tagged with`,
   'home': 'Home',
   'about': 'About',
+  'reference': 'Reference',
   'services': 'Services',
   'introduction': 'Introduction',
   'portfolio': 'Portfolio',

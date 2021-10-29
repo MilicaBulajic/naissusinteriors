@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from "../components/Content"
+import Testimonials from "../components/Testimonials"
 
 const ServiceTemplate = ({
   title,
@@ -14,6 +15,7 @@ const ServiceTemplate = ({
   heading,
   subheading,
   description,
+  testimonials,
   list,
   link,
   tags,
@@ -24,9 +26,12 @@ const ServiceTemplate = ({
     <div>
 
     <section className="section services">
+    <div className="column is-10 is-offset-1">
+    <h3>{subheading}</h3>
+      <Testimonials testimonials={testimonials} />
+      </div>
       <h3>{heading}</h3>
         <PageContent className="container content" content={content} />
-      <h3>{subheading}</h3>
       <p>{description}</p>
       <p>{list}</p>
       </section>
@@ -82,6 +87,7 @@ render() {
             list={list}
             langKey={langKey}
             image={dataMarkdown.frontmatter.image}
+            testimonials={dataMarkdown.frontmatter.testimonials}
             />
         </div>
       </Layout>
@@ -139,7 +145,18 @@ export const pageQuery = graphql
       heading
       subheading
       description
+      testimonials {
+        author
+        quote
+        alt
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 200, quality: 64, layout: CONSTRAINED)
+          }
+        }
+      }
     }
   }
 }
+
 `

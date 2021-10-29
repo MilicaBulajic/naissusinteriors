@@ -11,6 +11,7 @@ module.exports = {
     } taggato  con`,
   'home': 'Početna',
   'about': 'O nama',
+  'reference': 'Reference',
   'services': 'Servisi',
   'introduction': 'Introduzione',
   'portfolio': 'Portfolio',
