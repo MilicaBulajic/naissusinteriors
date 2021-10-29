@@ -50,26 +50,6 @@ const ReferenceTemplate = ({
           </div>
         </div>
       </section>
-      <section className="about">
-        <div className="column is-10 is-offset-1">
-          <div className="tile is-ancestor">
-            <div className="tile is-vertical">
-              <div className="tile">
-                <div className="tile is-parent is-vertical">
-                  <article className="tile is-child">
-                  <PreviewCompatibleImage imageInfo={mainpitch.image2} />
-                  </article>
-                  </div>
-                  <div className="column is-8 is-offset-1">
-                  <h2 className="has-text-weight-semibold">{mainpitch.title}</h2>
-                    <h4>{mainpitch.heading}</h4>
-                    <p>{mainpitch.description}</p>
-                    </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
@@ -201,7 +181,7 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                gatsbyImageData(width: 500, quality: 90, layout: CONSTRAINED)
+                gatsbyImageData(width: 750, quality: 90, layout: CONSTRAINED)
               }
             }
           }

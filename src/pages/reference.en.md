@@ -1,6 +1,6 @@
 ---
 id: "01"
-title: "About us"
+title: "Reference"
 description: 
 linkinsta: 'naissusinteriors'
 instagram: '@naissusinteriors'
@@ -21,17 +21,19 @@ mainpitch:
   description: 
   link: /en/kontakt
 main:
-  heading: Who we are
+  heading: References
   image1:
     alt: naissusinteriors
-    image: /img/image1.jpg
+    image: /img/partners.jpg
 path: /en/about/
 slug: /en/about/
 ---
 
-<b>Naissus Interiors</b> is a full service tile and stone company based in New York City. The company provides stone and tile installation and fabrication services to the high-end residential and commercial markets.
-Whether we are servicing general contractors, construction managers, architects or owners we understand our role and its part in the overall outlook of a project.
+We have had the pleasure and honor to serve some of the most reputable general contractors, architects and designers in the metropolitan area.
 
-As a finishing contractor, we tailer to the smallest detail to ensure an impeccable service.
-Our installers have the craftsmanship, training and work ethic to complete projects in a manner that delivers highest quality and respects clients time.
-Our project managers provide hands-on client relationship approach and ensure that the ever changing circumstances within this industry are handled timely and flawlessly.
+| General Contractors      | Architectural Firms | Design Firms    |
+| :---        |    :----:   |          ---: |
+| - Silver Lining Interiors       | - Leroy Street Studio       | - Ingrao  |
+| - Stern Projects   | - John B Murray        | - Glenn Gissler Design      |
+| - Highline Construction   | - Gordon Kahn        | - Kwinter & Co.      |
+
