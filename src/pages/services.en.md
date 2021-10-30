@@ -40,7 +40,6 @@ testimonials:
     image: /img/test1.png
     alt: sinks
 lang: en
-list:
 date: "05-03-2019"
 path: /en/services/
 slug: /en/services/

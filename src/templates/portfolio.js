@@ -122,7 +122,6 @@ export const pageQuery = graphql
       id
       title
       description
-      list
       tags
       lang
       image {

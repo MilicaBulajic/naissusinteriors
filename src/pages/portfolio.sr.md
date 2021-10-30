@@ -1,6 +1,6 @@
 ---
 id: "02"
-title: "Naissus Interiors"
+title: "Izvedeni radovi"
 description: Full service tile and stone company
 templateKey: portfolio
 tags:

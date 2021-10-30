@@ -1,7 +1,7 @@
 ---
 id: '04'
-title: "Contact us"
-description: "Page to send an e-mail"
+title: "Kontaktirajte nas"
+description: "Imamo kancelarije u Novom Sadu i Njujorku"
 templateKey: contacts
 tags:
   - web
@@ -9,7 +9,7 @@ lang: en
 image: /img/home.jpg
 date: "08-03-2019"
 address: "Serbia"
-phone: '+123456789'
+phone: '+38169688126'
 email: 'bojan@naissusinteriors.com'
 linkinsta: 'naissusinteriors'
 instagram: '@naissusinteriors'
@@ -27,4 +27,3 @@ path: /sr/kontakt
 slug: /sr/kontakt
 ---
 
-Contact us for more informations.

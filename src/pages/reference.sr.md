@@ -12,26 +12,27 @@ date: "05-03-2019"
 image: /img/home.jpg
 heading: "Dear friends welcome to"
 mainpitch:
-  heading: Naissus Interiors was founded by Bojan Bulajic, who has built his reputation of excellence as a high-end contractor for marble, terrazzo and tile installation. With over 15 years of experience and superior workmanship and project management abilities he has come to serve some of the most reputable general contractors, architects and designers in the metropolitan area.
+  heading: 
   subheading: WHAT PEOPLE SAY
   title: ""
   image2:
     alt: naissusinteriors
-    image: /img/team.png
+    image: 
   description: 
   link: /en/kontakt
 main:
-  heading: Who we are
+  heading: Reference
   image1:
     alt: naissusinteriors
-    image: /img/image1.jpg
+    image: /img/partners.jpg
 path: /en/about/
 slug: /en/about/
 ---
 
-<b>Naissus Interiors</b> is a full service tile and stone company based in New York City. The company provides stone and tile installation and fabrication services to the high-end residential and commercial markets.
-Whether we are servicing general contractors, construction managers, architects or owners we understand our role and its part in the overall outlook of a project.
+Imali smo zadovoljstvo i čast da služimo nekim od najuglednijih generalnih izvođača, arhitekata i dizajnera u metropolitanskoj oblasti.
 
-As a finishing contractor, we tailer to the smallest detail to ensure an impeccable service.
-Our installers have the craftsmanship, training and work ethic to complete projects in a manner that delivers highest quality and respects clients time.
-Our project managers provide hands-on client relationship approach and ensure that the ever changing circumstances within this industry are handled timely and flawlessly.
+| General Contractors      | Architectural Firms | Design Firms    |
+| :---        |    :----:   |          ---: |
+| - Silver Lining Interiors       | - Leroy Street Studio       | - Ingrao  |
+| - Stern Projects   | - John B Murray        | - Glenn Gissler Design      |
+| - Highline Construction   | - Gordon Kahn        | - Kwinter & Co.      |

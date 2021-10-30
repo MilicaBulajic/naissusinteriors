@@ -10,35 +10,35 @@ tags:
 lang: sr
 date: "05-07-2021"
 image: /img/home.jpg
-heading: "Welcome to"
-subheading: Full service tile and stone company
+heading: "Naissus Interiors"
+subheading: je kompanija sa kompletnim uslugama za pločice i kamen sa sedištem u Njujorku. Kompanija pruža usluge ugradnje i izrade kamena i pločica za vrhunska stambena i komercijalna tržišta.
 slider:
   display: 'slide'
   array:
     - {
-        original: 'https://picsum.photos/id/1015/6000/4000.jpg',
-        thumbnail: 'https://picsum.photos/id/1015/6000/4000.jpg',
-        originalAlt: 'A wild fjord in the far north.',
-        originalTitle: 'A wild fjord in the far north.',
-        description: 'A wild fjord in the far North, admiring the infinite.',
+        original: 'https://i.postimg.cc/bNgvF9Rp/upper-one.jpg',
+        thumbnail: 'https://i.postimg.cc/bNgvF9Rp/upper-one.jpg',
+        originalAlt: 'Upper East Side Duplex, New York',
+        originalTitle: 'Upper East Side Duplex, New York',
+        description: 'Upper East Side Duplex, New York',
       }
     - {
-        original: 'https://picsum.photos/id/1019/5472/3648.jpg',
-        thumbnail: 'https://picsum.photos/id/1019/5472/3648.jpg',
-        originalAlt: 'A beautiful sunset over the sea.',
-        originalTitle: 'A beautiful sunset over the sea.',
-        description: 'A beautiful sunset over the sea, where numerous routes of imagination depart.',
+        original: 'https://i.postimg.cc/d0pXsgJv/second.jpg',
+        thumbnail: 'https://i.postimg.cc/d0pXsgJv/second.jpg',
+        originalAlt: 'Urban downtown loft, New York',
+        originalTitle: 'Urban downtown loft, New York',
+        description: 'Urban downtown loft, New York',
       }
     - {
-        original: 'https://picsum.photos/id/1022/6000/3376.jpg',
-        thumbnail: 'https://picsum.photos/id/1022/6000/3376.jpg',
-        originalAlt: 'A Northern Lights.',
-        originalTitle: 'A Northern Lights.',
-        description: 'A northern lights with greenish hues.',
+        original: 'https://i.postimg.cc/5tCg3yMd/third.jpg',
+        thumbnail: 'https://i.postimg.cc/5tCg3yMd/third.jpg',
+        originalAlt: 'Urban downtown loft, New York',
+        originalTitle: 'Urban downtown loft, New York',
+        description: 'Urban downtown loft, New York',
       }
 mainpitch:
-  heading: ""
-  subheading: 
+  heading: "Naissus Interiors"
+  subheading: je kompanija sa kompletnim uslugama za pločice i kamen sa sedištem u Njujorku. Kompanija pruža usluge ugradnje i izrade kamena i pločica za vrhunska stambena i komercijalna tržišta.
   image: /img/banner.png 
   title: ""
   description: ""

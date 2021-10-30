@@ -1,6 +1,6 @@
 ---
 id: "01"
-title: "About us"
+title: "O nama"
 description: 
 linkinsta: 'naissusinteriors'
 instagram: '@naissusinteriors'
@@ -12,7 +12,7 @@ date: "05-03-2019"
 image: /img/home.jpg
 heading: "Dear friends welcome to"
 mainpitch:
-  heading: Naissus Interiors was founded by Bojan Bulajic, who has built his reputation of excellence as a high-end contractor for marble, terrazzo and tile installation. With over 15 years of experience and superior workmanship and project management abilities he has come to serve some of the most reputable general contractors, architects and designers in the metropolitan area.
+  heading: Naissus Interiors je osnovao Bojan Bulajić, koji je svoju reputaciju izvrsnosti izgradio kao vrhunski izvođač za postavljanje mermera, teraca i pločica. Sa preko 15 godina iskustva i vrhunske izrade i sposobnosti upravljanja projektima, došao je da služi nekim od najuglednijih generalnih izvođača, arhitekata i dizajnera u metropolitanskoj oblasti.
   subheading: WHAT PEOPLE SAY
   title: ""
   image2:
@@ -21,7 +21,7 @@ mainpitch:
   description: 
   link: /en/kontakt
 main:
-  heading: Who we are
+  heading: Ko smo mi
   image1:
     alt: naissusinteriors
     image: /img/image1.jpg
@@ -29,9 +29,7 @@ path: /sr/onama/
 slug: /sr/onama/
 ---
 
-<b>Naissus Interiors</b> is a full service tile and stone company based in New York City. The company provides stone and tile installation and fabrication services to the high-end residential and commercial markets.
-Whether we are servicing general contractors, construction managers, architects or owners we understand our role and its part in the overall outlook of a project.
 
-As a finishing contractor, we tailer to the smallest detail to ensure an impeccable service.
-Our installers have the craftsmanship, training and work ethic to complete projects in a manner that delivers highest quality and respects clients time.
-Our project managers provide hands-on client relationship approach and ensure that the ever changing circumstances within this industry are handled timely and flawlessly.
+Kao izvođač završnih radova, prilagođavamo se najsitnijim detaljima kako bismo obezbedili besprekornu uslugu.
+Naši instalateri imaju veštinu, obuku i radnu etiku da završe projekte na način koji pruža najviši kvalitet i poštuje vreme klijenata.
+Naši menadžeri projekata pružaju praktični pristup odnosima sa klijentima i osiguravaju da se sve promenljive okolnosti u ovoj industriji rešavaju blagovremeno i besprekorno.
