@@ -14,21 +14,14 @@ const ContactDetails = ({ infos, address, image, phone, email }) =>(
             </h3>
               <div className="columns is-vcentered">
                 <div className="column">
-                <CardSlide
-                style={{ maxWidth: '20%'}}
-                imageInfo={image}
-                name={image.name}
-                description={image.description}
-                website={image.website}/>
-                </div>
-                <div className="column is-vertical-center">
+
                   {phone && (
                   <div className="content">
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
+                href={`tel:${
                   phone
-                )}`}
+                }}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

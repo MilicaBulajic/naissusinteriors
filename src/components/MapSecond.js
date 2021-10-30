@@ -1,53 +1,26 @@
-import React from 'react'
-import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import React, { useState } from 'react';
+import GoogleMapReact from 'google-map-react'
+import Marker from './Marker';
 
-const containerStyle = {
-  width: '400px',
-  height: '400px'
-};
-
-const center = {
-  lat: 40.74340037270744,
-  lng: -73.97576031527545
-};
-
-function MapSecond() {
-  const { isLoaded } = useJsApiLoader({
-    id: 'google-map-script',
-    googleMapsApiKey: process.env.GATSBY_GOOGLE_MAPS_API_KEY
-  })
-
-  const [map, setMap] = React.useState(null)
-
-  const onLoad = React.useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds();
-    map.fitBounds(bounds);
-    setMap(map)
-  }, [])
-
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null)
-  }, [])
-
-  return isLoaded ? (
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={center}
-        zoom={12}
-        onLoad={onLoad}
-        onUnmount={onUnmount}
+const MapSecond = () => {
+  const [center, setCenter] = useState({lat: 45.260659916113525, lng: 19.843249526321753 });
+  const [zoom, setZoom] = useState(14);
+  return (
+    <div style={{ height: '400px', width: '400px' }}>
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: process.env.GATSBY_GOOGLE_MAPS_API_KEY }}
+        defaultCenter={center}
+        defaultZoom={zoom}
       >
-<Marker
-              // defaultPlace={center}
-              position={center}       
-              // ref={refMap}
-              // defaultPosition={center}
-              // onDrag={handleBoundsChanged}
-              // onDragEnd={handleDragEnd}
-            />
-        <></>
-      </GoogleMap>
-  ) : <></>
+        <Marker
+          lat={45.260659916113525}
+          lng={19.843249526321753}
+          name="My Marker"
+          color="blue"
+        />
+      </GoogleMapReact>
+    </div>
+  );
 }
 
-export default React.memo(MapSecond)
+export default MapSecond

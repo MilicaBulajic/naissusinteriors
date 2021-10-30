@@ -41,31 +41,30 @@ class CardSlide extends React.Component {
     const name = props.imageInfo.name;
     const description = props.imageInfo.description;
     const website = props.imageInfo.website;
+    const phone = props.imageInfo.phone;
+    const email = props.imageInfo.email;
+    
 
     return (
     <div className="section card-slide">
-      <div className="card">
-        <div className="card-content">
           <div className="media">
             <div className="media-left">
               <figure className="image">
                 <CardImageSlide imageInfo={imageInfo}/>
               </figure>
             </div>
-              <div className="media-content contact">
+              <div className="column is-vertical-center">
                 <ReactWOW animation='pulse'>
-                  <p className="title is-4">{name}</p>
+                  <p className="title is-4">{phone}</p>
                 </ReactWOW>
                 <ReactWOW delay='1s' animation='pulse'>
-                  <p className="title is-6">{description}</p>
+                  <p className="title is-6">{email}</p>
                 </ReactWOW>
                 <br/>
                 <a href={"https://" + website}><i className="is-family-code">{website}</i></a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
   )}
 }
 
