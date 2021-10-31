@@ -3,7 +3,7 @@ id: '05'
 title: "Servisi"
 image: /img/banner.png
 heading: Šta da očekujete
-subheading: Services
+subheading: Servisi
 description: ""
 templateKey: services
 testimonials:
@@ -46,7 +46,7 @@ slug: /sr/servisi/
 ---
 
 ##
-<b>ŠABLONA:</b> Naši tehničari će stići na gradilište kako bi izvršili tačna merenja površina koje su tretirane kamenom.
+<b>ŠABLON:</b> Naši tehničari će stići na gradilište kako bi izvršili tačna merenja površina koje su tretirane kamenom.
 
 <b>PROIZVODNJA:</b> Tokom procesa proizvodnje, naši iskusni stručnjaci za sečenje su obavezni da donesu odluke o tome gde će postaviti sve neophodne šavove. Naši tehničari su upućeni da ove šavove drže na minimumu dok maksimiziraju upotrebu ploče. Takođe ćemo raditi na tome da poravnamo vene na šavovima kako bismo postigli što estetski prihvatljiviji položaj. Možete biti prisutni tokom postavljanja vaših šablona/merenja na pločama kako biste bolje razumeli proces i videli šta ćete tačno dobiti prilikom instalacije.
 
