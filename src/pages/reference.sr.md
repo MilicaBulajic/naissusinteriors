@@ -31,8 +31,29 @@ slug: /en/about/
 
 Imali smo zadovoljstvo i čast da služimo nekim od najuglednijih generalnih izvođača, arhitekata i dizajnera u metropolitanskoj oblasti.
 
-| General Contractors      | Architectural Firms | Design Firms    |
-| :---        |    :----:   |          ---: |
-| - Silver Lining Interiors       | - Leroy Street Studio       | - Ingrao  |
-| - Stern Projects   | - John B Murray        | - Glenn Gissler Design      |
-| - Highline Construction   | - Gordon Kahn        | - Kwinter & Co.      |
+<table style='border-collapse: collapse;'>
+    <thead style='padding: 10px;'>
+        <tr style='border: 1px solid 	#B8B8B8;'>
+            <th>General Contractors</th>
+            <th>Architectural Firms</th>
+            <th>Design Firms</th>
+        </tr>
+    </thead>
+    <tbody  style='border: 1px solid 	#B8B8B8;'>
+        <tr>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Silver Lining Interiors</td>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Leroy Street Studio</td>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Ingrao</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Stern Projects</td>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>John B Murray</td>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Glenn Gissler Design</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Highline Construction</td>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Gordon Kahn</td>
+            <td style='border: 1px solid 	#B8B8B8; padding-left: 7px;'>Kwinter & Co.</td>
+        </tr>
+    </tbody>
+</table>
