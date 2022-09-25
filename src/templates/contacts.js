@@ -174,7 +174,7 @@ const ContactPageTemplate = ({
             <div className="tile is-vertical">
               <div className="tile">
                 <div className="tile is-parent is-vertical">
-                  <article className="tile is-child">
+                  {/* <article className="tile is-child">
                     <span>Trg Marije Trandafil 24, I/2 21000, Novi Sad</span>
                     <MapSecond />
                   </article>
@@ -183,7 +183,7 @@ const ContactPageTemplate = ({
                   <article className="tile is-child">
                     <span>330 E 33rd street, Suite 8D, New York, NY 10016</span>
                     <Map />
-                  </article>
+                  </article> */}
                 </div>
               </div>
             </div>

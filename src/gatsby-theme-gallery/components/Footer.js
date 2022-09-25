@@ -21,11 +21,7 @@ const Footer = class extends React.Component {
       <footer>
         <div className="content has-text-centered">
           <hr />
-          <a
-            title="facebook"
-            target="_blank"
-            href=""
-          >
+          <a title="facebook" target="_blank" href="">
             <FaFacebook className="facebook-icon" size="2em" />
           </a>
           <a
@@ -35,7 +31,7 @@ const Footer = class extends React.Component {
           >
             <FaInstagram className="instagram-icon" size="2em" />
           </a>
-          <p>© 2021, Naissus Interiors - All rights reserved.</p>
+          <p>© 2022, Naissus Interiors - All rights reserved.</p>
         </div>
 
         <ScrollToTop />
