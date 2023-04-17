@@ -17,7 +17,7 @@ mainpitch:
   title: ""
   image2:
     alt: naissusinteriors
-    image: /img/team.png
+    image: /img/bo.jpg
   description: 
   link: /en/kontakt
 main:
